@@ -23,7 +23,28 @@ const Variants = !isMobile ? {
         }
     },
 
-} : {}
+} : {
+    an1: {
+        y: -110,
+        transition: {
+            duration: 3
+        }
+    },
+    an2: {
+        y: -110,
+        transition: {
+            duration: 3,
+            delay: 1
+        }
+    },
+    an3: {
+        y: -110,
+        transition: {
+            duration: 3,
+            delay: 2
+        }
+    },
+}
 
 const skillsVariant = {
     an4: {

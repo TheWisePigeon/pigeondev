@@ -45,7 +45,7 @@ export default function About() {
     return (
         <>
             <div>
-                <motion.div className=" flex justify-center" variants={textVariants} animate="animate" >
+                <motion.div className=" flex justify-center" variants={textVariants} whileInView="animate" >
                     <p className="text-center text-3xl">Hi, I am Joseph <br /> a.k.a <br /> <a className=" pLink" href="https://github.com/TheWisePigeon">TheWisePigeon</a></p>
                 </motion.div>
             </div>
@@ -60,7 +60,7 @@ export default function About() {
                             </Suspense>
                         </Canvas>
                     </div>
-                    <motion.p className='text-center text-4xl ' variants={textVariants} animate="animate2" >
+                    <motion.p className='text-center text-4xl ' variants={textVariants} whileInView="animate2" >
                         Welcome to my portfolio
                     </motion.p>
                 </div>
