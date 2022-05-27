@@ -4,7 +4,7 @@
 
 @layer components{
   .pLink{
-    @apply text-green-700 underline animate-pulse
+    @apply text-pink-500 underline animate-pulse
   }
 }
 
