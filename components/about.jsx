@@ -26,7 +26,7 @@ const Model = () => {
 export default function About() {
     return (
         <>
-            <div className=" bg-black grid place-items-center h-screen  text-white">
+            <div className=" flex justify-center items-center h-screen  text-white">
                 <div className=' w-96 h-96'>
                     <Canvas>
                         <Suspense fallback={null} >
@@ -35,7 +35,7 @@ export default function About() {
                             <Environment preset='sunset' />
                         </Suspense>
                     </Canvas>
-                    <motion.p className='text-center text-4xl'>
+                    <motion.p className='text-center text-4xl '>
                         Hi, and welcome to my portfolio :)
                     </motion.p>
                 </div>

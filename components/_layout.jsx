@@ -4,7 +4,7 @@ export default function _layout({children}) {
   return (
     <>
         <Header/>
-        <main>{children}</main>
+        <main className=" bg-gradient-to-tr from-blue-500 " >{children}</main>
     </>
   )
 }
