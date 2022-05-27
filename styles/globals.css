@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+  .pLink{
+    @apply text-green-700 underline animate-pulse
+  }
+}
+
 html,
 body {
   width: 100%;

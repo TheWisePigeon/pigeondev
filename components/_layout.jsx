@@ -1,10 +1,11 @@
-import Header from "./header"
 
 export default function _layout({children}) {
   return (
     <>
-        <Header/>
-        <main className=" bg-gradient-to-tr from-blue-500 " >{children}</main>
+        
+        <main className=" bg-gradient-to-tr from-blue-700 to-green-400 text-white font-mono" >
+            {children}
+        </main>
     </>
   )
 }

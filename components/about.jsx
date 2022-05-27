@@ -16,7 +16,7 @@ const Model = () => {
 
     return (
         <>
-            <primitive ref={model} object={gltf.scene} scale={1.5} />
+            <primitive ref={model} object={gltf.scene} scale={2} position={[0, -1, 0]} />
         </>
     )
 }
@@ -26,17 +26,24 @@ const Model = () => {
 export default function About() {
     return (
         <>
-            <div className=" flex justify-center items-center h-screen  text-white">
-                <div className=' w-96 h-96'>
-                    <Canvas>
-                        <Suspense fallback={null} >
-                            <Model />
-                            <OrbitControls />
-                            <Environment preset='sunset' />
-                        </Suspense>
-                    </Canvas>
-                    <motion.p className='text-center text-4xl '>
-                        Hi, and welcome to my portfolio :)
+            <div>
+                <motion.div className=" flex justify-center" animate={{ x: 50, y:10 }} transition={{ duration: 1 }} >
+                    <p className="text-center text-3xl">Hi, I am Joseph <br /> a.k.a <br /> <a className=" pLink" href="https://github.com/TheWisePigeon">TheWisePigeon</a></p>
+                </motion.div>
+            </div>
+            <div className=" flex justify-center items-center h-screen ">
+                <div className=' w-96 h-96 '>
+                    <div className=' h-96 '>
+                        <Canvas>
+                            <Suspense fallback={null} >
+                                <Model />
+                                <OrbitControls />
+                                <Environment preset='sunset' />
+                            </Suspense>
+                        </Canvas>
+                    </div>
+                    <motion.p className='text-center text-4xl ' animate={{ x: -50, y:-20 }} transition={{ duration: 1 }} >
+                        Welcome to my portfolio
                     </motion.p>
                 </div>
 
