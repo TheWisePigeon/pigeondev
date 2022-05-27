@@ -100,6 +100,18 @@ const skills = [
         name: "Tauri",
         value: "55"
     },
+    {
+        name: "SEO",
+        value: "75"
+    },
+    {
+        name: "Serverless",
+        value: "75"
+    },
+    {
+        name: "Stripe Integration",
+        value: "65"
+    },
 ]
 
 export default function Contact() {
