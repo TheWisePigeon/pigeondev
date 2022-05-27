@@ -15,7 +15,6 @@ export default function Home() {
       <main>
         <About/>
         <Contact/>
-        <Bye/>
       </main>
 
     </div>
