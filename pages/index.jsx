@@ -11,7 +11,7 @@ export default function Home() {
     <div >
       <Head>
         <title>PigeonDev</title>
-        <meta name="description" content="Pigeondev portfolio" />
+        <meta name="description" content="Hi, I'm Joseph, a.k.a. TheWisePigeon. I'm a Full Stack Developer and this is my portfolio :)" />
         <link rel="icon" href="/faviconP.png" />
       </Head>
       <main>
