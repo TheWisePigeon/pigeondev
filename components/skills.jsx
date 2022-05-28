@@ -125,7 +125,7 @@ export default function Skills() {
                     <motion.p variants={Variants} whileInView="an3">Am currently pursuing a software engineering degree</motion.p>
                 </motion.div>
             </div>
-            <p className="" >My skills</p>
+            <p className="text-4xl" >My skills</p>
             {
                 skills.map(
                     skill => {
