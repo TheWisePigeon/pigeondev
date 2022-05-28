@@ -156,7 +156,7 @@ const animation = {
 export default function Projects() {
     return (
         <>
-            <div>
+            <div className=" text-xl">
                 Here is some of the stuff I made
             </div>
             <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">

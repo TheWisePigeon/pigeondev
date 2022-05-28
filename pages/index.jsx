@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import About from '../components/about'
 import Bye from '../components/bye'
-import Contact from '../components/contact'
+import Skills from '../components/skills'
 import Projects from '../components/projects'
+import Contact from '../components/contact'
 
 export default function Home() {
 
@@ -15,8 +16,9 @@ export default function Home() {
       </Head>
       <main>
         <About/>
-        <Contact/>
+        <Skills/>
         <Projects/>
+        <Contact/>
       </main>
 
     </div>
