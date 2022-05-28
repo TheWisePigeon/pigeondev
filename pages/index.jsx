@@ -2,6 +2,7 @@ import Head from 'next/head'
 import About from '../components/about'
 import Bye from '../components/bye'
 import Contact from '../components/contact'
+import Projects from '../components/projects'
 
 export default function Home() {
 
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <About/>
         <Contact/>
+        <Projects/>
       </main>
 
     </div>
