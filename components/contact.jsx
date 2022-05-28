@@ -48,8 +48,8 @@ export default function Contact() {
 
                 </div>
             </div>
-            <div className="flex justify-center text-center p-8 text-4xl ">
-                <div className="flex justify-between ">
+            <div className="flex justify-center text-center p-8 text-base ">
+                <div className="flex-col lg:flex justify-center ">
                     Checkout my personnal blog here: 
                     <a className="pLink" href="https://pigeonscript.co">PigeonScript.co</a>
 

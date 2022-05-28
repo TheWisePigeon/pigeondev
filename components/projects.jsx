@@ -164,8 +164,8 @@ export default function Projects() {
                     projects.map(
                         project => {
                             return (
-                                <>
-                                    <motion.div className="  p-4 flex justify-center"  variants={animation} whileHover="animate" >
+                                <div key={project.name} >
+                                    <motion.div  className="  p-4 flex justify-center"  variants={animation} whileHover="animate" >
                                         <div className="rounded-xl w-52 h-64 mx-auto  mt-10 bg-gradient-to-r p-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
                                             <div className="flex flex-col justify-between h-full bg-transparent  rounded-lg p-4">
                                                 <p className="font-bold" >{project.name}</p>
@@ -206,7 +206,7 @@ export default function Projects() {
                                             </div>
                                         </div>
                                     </motion.div>
-                                </>
+                                </div>
                             )
                         }
                     )
